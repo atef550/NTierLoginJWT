@@ -31,6 +31,7 @@ namespace WebApi.Controllers
 
             return Ok(response);
         }
+        //https://localhost:44301/users/authenticate/
 
         [HttpDelete("DeletebyID/{id}")]
         public IActionResult DeleteById(int id)
